@@ -1,0 +1,17 @@
+{
+  "name": "eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "lint-html": "eslint --format html -o ./report/lint.html --ext .js ./src",
+   "lint-json": "eslint --format json -o ./report/lint.json --ext .js ./src",
+   "lint-fix": "eslint --fix --ext .js ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
+}
